@@ -1,9 +1,4 @@
-# Initally restrict to Core rules to simplfy 
-# Start with 200pt size, no CP, no Battleshock, no markers, predefined board and terrain
-# User imports roster, Program generates enemy roster
-# Initially restrict to IRL, not sure if TTS can simulate 2nd player
-# User controls their battle steps and enters results
-# Program controls its battle steps
+#device roll functions
 
 
 def hitroll(num_dice :int, strength :int, toughness :int) -> int:
