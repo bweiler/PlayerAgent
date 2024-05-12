@@ -1,6 +1,6 @@
 # PlayerAgent repo
 
-## This repo is for an AI Player ageent for Warhammer 40k. It is open for addtional developers, testers and strategists
+## This repo is for an AI Player ageent for Warhammer 40k. Open for collaborators: devs, testers, and strategists.
 
 ## Justification:
 
