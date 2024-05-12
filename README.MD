@@ -1,6 +1,6 @@
 # PlayerAgent repo
 
-## This repo is for an AI Player ageent for Warhammer 40k. It is open for addtional developers, testers and strageists
+## This repo is for an AI Player ageent for Warhammer 40k. It is open for addtional developers, testers and strategists
 
 ## Justification:
 
@@ -34,12 +34,12 @@
 
 # Directory structure
 
-pyproject.toml
-\src
-    \agent
-	  ....source code
-\tests
-	  ....pytests
+pyproject.toml   
+\src   
+    \agent   
+	  ....source code   
+\tests   
+	  ....pytests   
 	  
 
 # Pytest command
