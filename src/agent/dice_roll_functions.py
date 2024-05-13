@@ -2,8 +2,8 @@ import numpy as np
 
 #device roll functions
 
-
-def hitroll(num_dice :int, skill :int, modifier :int) -> int:
+#returns hits, plus number of dice for reroll option
+def hitroll(num_dice :int, skill :int, modifier :int) -> list:
 
     success_hits = 0
     dice_for_hit_rolls = np.random.randint(low=1, high=7, size=(num_dice))
@@ -14,9 +14,10 @@ def hitroll(num_dice :int, skill :int, modifier :int) -> int:
         elif (single_roll - modifier) >= skill and single_roll != 1:
                 success_hits = success_hits + 1
 
-    return success_hits
+    return success_hits, (num_dice -  success_hits)
 
-def woundroll(num_dice :int, strength :int, toughness :int) -> int:
+#returns wounds, plus number of dice for reroll option
+def woundroll(num_dice :int, strength :int, toughness :int) -> list:
 
     success_roll = 0
     if toughness == strength:
@@ -39,8 +40,9 @@ def woundroll(num_dice :int, strength :int, toughness :int) -> int:
         if single_roll >= success_roll:
             success_wounds = success_wounds + 1
     
-    return success_wounds
+    return success_wounds, (num_dice - success_wounds)
     
+#returns saves, damage from unsucceessful saves, and number of dice for reroll
 def saveroll(num_dice :int, savevalue :int, AP :int, damage :int) -> int:
 
     dice_for_save_rolls = np.random.randint(low=1, high=7, size=(num_dice))
@@ -51,7 +53,7 @@ def saveroll(num_dice :int, savevalue :int, AP :int, damage :int) -> int:
         if (single_roll + AP) >= savevalue:
             success_saves = success_saves + 1
     
-    return (num_dice - success_saves) * damage
+    return success_saves, (num_dice - success_saves) * damage, num_dice - success_saves 
     
    
 t_dice = 10
