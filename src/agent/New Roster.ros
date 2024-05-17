@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<roster id="f49f-caa9-3b1f-7131" name="New Roster" battleScribeVersion="2.03" gameSystemId="3b7e-7dab-f79f-2e74" gameSystemName="Warhammer 40,000: Kill Team (2021)" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/rosterSchema">
+  <costLimits>
+    <costLimit name="EP" typeId="c61a-51a3-370d-bf55" value="200.0"/>
+  </costLimits>
+  <forces>
+    <force id="16a0-cb9b-87ef-a280" name="Roster" entryId="7138-2b60-74ce-a90b" catalogueId="7465-527f-4350-203d" catalogueRevision="9" catalogueName="Death Guard">
+      <selections>
+        <selection id="dcc1-519c-b93e-9edc" name="Game Type" entryId="728e-edbd-09b7-433b::ce6c-1c61-35c2-8202" number="1" type="upgrade">
+          <selections>
+            <selection id="35f0-e1e1-88e5-fe80" name="Matched" entryId="728e-edbd-09b7-433b::d576-59ea-7df7-cf3e" entryGroupId="728e-edbd-09b7-433b::66d7-369b-5646-9bfe" number="1" type="upgrade">
+              <costs>
+                <cost name="EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="8381-3079-1122-0908" name="Configuration" entryId="fb89-efb1-54e4-59c5" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="4417-cf96-a4cf-505f" name="Plague Marine Champion" entryId="1d49-6272-2cef-ffca::f892-69bf-69a5-eec6" number="1" type="model">
+          <profiles>
+            <profile id="1d49-6272-2cef-ffca::6ed2-7c59-1c72-6620" name="Plague Marine Champion" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+              <characteristics>
+                <characteristic name="M" typeId="c36f-3952-a91d-5a06">2⬤</characteristic>
+                <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+                <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+                <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+                <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+                <characteristic name="W" typeId="db11-738c-048c-759e">13</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="1d49-6272-2cef-ffca::bd6d-245d-c032-f552::1889-3a76-7175-56b3" name="Disgustingly Resilient" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Each time this operative would lose a wound, roll one D6: on a 5+, that wound is not lost. This operative cannot be injured.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="5c42-370e-4a06-5d0f" name="Plaguesword" entryId="1d49-6272-2cef-ffca::2785-1912-f8c1-8151" entryGroupId="1d49-6272-2cef-ffca::88bd-b355-12be-c2d0" number="1" type="upgrade">
+              <profiles>
+                <profile id="1d49-6272-2cef-ffca::8318-f15c-d654-8120" name="⚔ Plaguesword" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/6</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">-</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="f4a7-acb2-583a-1edb" name="Bolt pistol" entryId="1d49-6272-2cef-ffca::a47d-aa2a-0630-be92::07a9-2492-ac87-6c11" entryGroupId="1d49-6272-2cef-ffca::1c41-e81a-edf7-211e" number="1" type="upgrade">
+              <profiles>
+                <profile id="1d49-6272-2cef-ffca::a47d-aa2a-0630-be92::3907-3412-46cc-7559" name="⌖ Bolt pistol (Plague Marine Champion)" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬟</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="1925-c4e6-bfc4-b652" name="DEATH GUARD" entryId="8dc1-46e8-f00d-0e7d" primary="false"/>
+            <category id="f5f3-9c6e-b901-7e10" name="Chaos" entryId="ba61-d304-9352-ec15" primary="false"/>
+            <category id="6f20-1de9-9f7b-5de1" name="Bubonic Astartes" entryId="fb65-5ed8-a91f-3bc0" primary="false"/>
+            <category id="1fba-56ee-fcd6-845e" name="Plague Marine" entryId="e54f-fe6d-91ba-bb1c" primary="false"/>
+            <category id="c557-f9c4-f8f2-9cef" name="Champion" entryId="5ab2-d430-ce24-e657" primary="false"/>
+            <category id="9ae4-5b8a-345f-fe4e" name="Leader" entryId="3198-c1ce-dfd0-fb4f" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="8a8b-b0c8-c78f-8bc4" name="Plague Marine (Fighter)" entryId="6319-6c8e-bbeb-ddb7::8296-0ddc-228e-5163" number="1" type="model">
+          <profiles>
+            <profile id="6319-6c8e-bbeb-ddb7::63d5-48cd-b022-3184::f572-1645-4b5a-8acd" name="Plague Marine" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+              <characteristics>
+                <characteristic name="M" typeId="c36f-3952-a91d-5a06">2⬤</characteristic>
+                <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+                <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+                <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+                <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+                <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="6319-6c8e-bbeb-ddb7::6a81-d2a4-7527-1fc1::1889-3a76-7175-56b3" name="Disgustingly Resilient" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Each time this operative would lose a wound, roll one D6: on a 5+, that wound is not lost. This operative cannot be injured.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="7e58-b021-5f9b-cfea" name="Bolt pistol" entryId="6319-6c8e-bbeb-ddb7::465e-2e95-2d14-086d::07a9-2492-ac87-6c11" number="1" type="upgrade">
+              <profiles>
+                <profile id="6319-6c8e-bbeb-ddb7::465e-2e95-2d14-086d::3907-3412-46cc-7559" name="⌖ Bolt pistol" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬟</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="2f8f-bd19-cf6d-daaf" name="Great plague cleaver" entryId="6319-6c8e-bbeb-ddb7::50be-63a3-b525-14eb" entryGroupId="6319-6c8e-bbeb-ddb7::577b-ebf0-a128-eb57" number="1" type="upgrade">
+              <rules>
+                <rule id="6319-6c8e-bbeb-ddb7::6896-7ba3-5bca-5ce1::0550-3332-7a93-ab5b" name="Rending" hidden="false">
+                  <description>Each time a friendly operative fights in combat or makes a shooting attack with this weapon, in the Roll Attack Dice step of that combat or shooting attack, if you retain any critical hits you can retain one normal hit as a critical hit.</description>
+                </rule>
+              </rules>
+              <profiles>
+                <profile id="6319-6c8e-bbeb-ddb7::fc20-8232-800f-ab87" name="⚔ Great plague cleaver" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">4+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">5/7</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">-</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">Rending</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="3867-99e1-6991-b91a" name="DEATH GUARD" entryId="8dc1-46e8-f00d-0e7d" primary="false"/>
+            <category id="a6cd-38f6-e1e8-0615" name="Chaos" entryId="ba61-d304-9352-ec15" primary="false"/>
+            <category id="067e-1848-939d-293c" name="Bubonic Astartes" entryId="fb65-5ed8-a91f-3bc0" primary="false"/>
+            <category id="bdb1-e8dc-39f1-803c" name="Plague Marine" entryId="e54f-fe6d-91ba-bb1c" primary="false"/>
+            <category id="0452-88e7-87c1-0049" name="Fighter" entryId="4470-2839-f56b-81ec" primary="false"/>
+            <category id="376a-b32d-f7d4-9706" name="Operative" entryId="f98b-0289-0f1f-b233" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="0898-2a21-bd0f-63aa" name="Plague Marine (Gunner)" entryId="25ff-5a5c-79f2-b721::fbcd-651d-61ae-47a7" number="1" type="model">
+          <profiles>
+            <profile id="25ff-5a5c-79f2-b721::55fd-ee97-82b9-825b::f572-1645-4b5a-8acd" name="Plague Marine" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+              <characteristics>
+                <characteristic name="M" typeId="c36f-3952-a91d-5a06">2⬤</characteristic>
+                <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+                <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+                <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+                <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+                <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="25ff-5a5c-79f2-b721::ad20-0c33-e77f-fd48::1889-3a76-7175-56b3" name="Disgustingly Resilient" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Each time this operative would lose a wound, roll one D6: on a 5+, that wound is not lost. This operative cannot be injured.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="da35-9028-cff8-6ad9" name="Plague knife" entryId="25ff-5a5c-79f2-b721::5526-fd8b-eef1-a38f::c483-729d-1dcf-f579" number="1" type="upgrade">
+              <profiles>
+                <profile id="25ff-5a5c-79f2-b721::5526-fd8b-eef1-a38f::06d6-ba12-5bc6-5377" name="⚔ Plague knife" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">3</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/5</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">-</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="44b3-921c-f624-5eb6" name="Meltagun" entryId="25ff-5a5c-79f2-b721::686f-ee44-4d08-5ba8" entryGroupId="25ff-5a5c-79f2-b721::2c58-01be-4350-244c" number="1" type="upgrade">
+              <rules>
+                <rule id="25ff-5a5c-79f2-b721::bd62-91a2-f7f2-6e24::92de-2ad3-3554-0b3e" name="Rng x" hidden="false">
+                  <description>Each time a friendly operative makes a shooting attack with this weapon, only operatives within x are a valid target. x is the distance after the weapon&apos;s Rng, e.g. Rng ⬟. All other rules for selecting a valid target still apply.</description>
+                </rule>
+                <rule id="25ff-5a5c-79f2-b721::93f9-dc4b-a4d2-8c3a::db98-339e-d0a2-e042" name="APx" hidden="false">
+                  <description>Each time a friendly operative makes a shooting attack with this weapon, subtract x from the Defence of the target for that shooting attack. x is the number after the weapon&apos;s AP, e.g. AP1. If two different APx special rules would be in effect for a shooting attack, they are not cumulative - the attacker selects which one to use.</description>
+                </rule>
+              </rules>
+              <profiles>
+                <profile id="25ff-5a5c-79f2-b721::d12d-1445-ad7a-f7f3" name="⌖ Meltagun" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">6/3</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬟, AP2</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">MW4</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="5115-228e-dc91-7ca4" name="DEATH GUARD" entryId="8dc1-46e8-f00d-0e7d" primary="false"/>
+            <category id="64dd-af85-73fe-a876" name="Chaos" entryId="ba61-d304-9352-ec15" primary="false"/>
+            <category id="06df-8527-9bd6-f582" name="Bubonic Astartes" entryId="fb65-5ed8-a91f-3bc0" primary="false"/>
+            <category id="069e-88cf-9dae-a02a" name="Plague Marine" entryId="e54f-fe6d-91ba-bb1c" primary="false"/>
+            <category id="212b-99f6-a3a3-393a" name="Gunner" entryId="ee8c-cc44-acc3-40f0" primary="false"/>
+            <category id="01b0-c281-1448-e389" name="Operative" entryId="f98b-0289-0f1f-b233" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="d092-e8d6-d2d9-fd19" name="Plague Marine (Warrior)" entryId="9910-70fc-1b5d-e232::6596-8efd-2a0b-82db" number="1" type="model">
+          <profiles>
+            <profile id="9910-70fc-1b5d-e232::d1af-7d28-8df5-2531::f572-1645-4b5a-8acd" name="Plague Marine" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+              <characteristics>
+                <characteristic name="M" typeId="c36f-3952-a91d-5a06">2⬤</characteristic>
+                <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+                <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+                <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+                <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+                <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="9910-70fc-1b5d-e232::ecf9-c017-a912-9f41::1889-3a76-7175-56b3" name="Disgustingly Resilient" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Each time this operative would lose a wound, roll one D6: on a 5+, that wound is not lost. This operative cannot be injured.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="6732-f351-8aa7-6c97" name="Boltgun" entryId="9910-70fc-1b5d-e232::c74f-d5b0-a736-1a1a::f639-b0b4-8741-6f0c" number="1" type="upgrade">
+              <profiles>
+                <profile id="9910-70fc-1b5d-e232::c74f-d5b0-a736-1a1a::ae0d-fce0-0822-1c86" name="⌖ Boltgun" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">-</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="a8a9-71e0-a04c-5468" name="Plague knife" entryId="9910-70fc-1b5d-e232::86ac-da99-5732-52f3::c483-729d-1dcf-f579" number="1" type="upgrade">
+              <profiles>
+                <profile id="9910-70fc-1b5d-e232::86ac-da99-5732-52f3::06d6-ba12-5bc6-5377" name="⚔ Plague knife" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">3</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/5</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">-</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="976e-99e3-176b-309f" name="DEATH GUARD" entryId="8dc1-46e8-f00d-0e7d" primary="false"/>
+            <category id="fd5e-822f-3eba-8bf7" name="Chaos" entryId="ba61-d304-9352-ec15" primary="false"/>
+            <category id="b5f6-7d2e-03aa-44b1" name="Bubonic Astartes" entryId="fb65-5ed8-a91f-3bc0" primary="false"/>
+            <category id="2592-cb51-e972-a812" name="Plague Marine" entryId="e54f-fe6d-91ba-bb1c" primary="false"/>
+            <category id="1374-76f6-64d3-954f" name="Warrior" entryId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+            <category id="a52b-2e6e-a5e9-a227" name="Operative" entryId="f98b-0289-0f1f-b233" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="0d57-4b42-834f-5488" name="Plague Marine (Warrior)" entryId="9910-70fc-1b5d-e232::6596-8efd-2a0b-82db" number="1" type="model">
+          <profiles>
+            <profile id="9910-70fc-1b5d-e232::d1af-7d28-8df5-2531::f572-1645-4b5a-8acd" name="Plague Marine" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+              <characteristics>
+                <characteristic name="M" typeId="c36f-3952-a91d-5a06">2⬤</characteristic>
+                <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+                <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+                <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+                <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+                <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="9910-70fc-1b5d-e232::ecf9-c017-a912-9f41::1889-3a76-7175-56b3" name="Disgustingly Resilient" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Each time this operative would lose a wound, roll one D6: on a 5+, that wound is not lost. This operative cannot be injured.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="21f1-5f14-def5-c12d" name="Boltgun" entryId="9910-70fc-1b5d-e232::c74f-d5b0-a736-1a1a::f639-b0b4-8741-6f0c" number="1" type="upgrade">
+              <profiles>
+                <profile id="9910-70fc-1b5d-e232::c74f-d5b0-a736-1a1a::ae0d-fce0-0822-1c86" name="⌖ Boltgun" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">-</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="72c3-5693-6918-fae7" name="Plague knife" entryId="9910-70fc-1b5d-e232::86ac-da99-5732-52f3::c483-729d-1dcf-f579" number="1" type="upgrade">
+              <profiles>
+                <profile id="9910-70fc-1b5d-e232::86ac-da99-5732-52f3::06d6-ba12-5bc6-5377" name="⚔ Plague knife" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">3</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/5</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">-</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="1df5-267a-5897-88b5" name="DEATH GUARD" entryId="8dc1-46e8-f00d-0e7d" primary="false"/>
+            <category id="8c32-280e-e0cd-b769" name="Chaos" entryId="ba61-d304-9352-ec15" primary="false"/>
+            <category id="1e37-d712-5eac-9cee" name="Bubonic Astartes" entryId="fb65-5ed8-a91f-3bc0" primary="false"/>
+            <category id="bdf7-cf2b-6637-a090" name="Plague Marine" entryId="e54f-fe6d-91ba-bb1c" primary="false"/>
+            <category id="bc85-7f25-34b9-ad8c" name="Warrior" entryId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+            <category id="336a-fdf7-d58d-29ea" name="Operative" entryId="f98b-0289-0f1f-b233" primary="true"/>
+          </categories>
+        </selection>
+      </selections>
+      <publications>
+        <publication id="4108-bf65-51f7-78fd" name="Github"/>
+      </publications>
+      <categories>
+        <category id="66ad-0bad-2bfe-4bbf" name="Uncategorised" entryId="(No Category)" primary="false"/>
+        <category id="4a57-845f-eea9-901e" name="Configuration" entryId="fb89-efb1-54e4-59c5" primary="false"/>
+        <category id="4084-3688-4446-f124" name="Reference" entryId="322e-38ea-bf3e-c785" primary="false"/>
+        <category id="d824-2829-94e6-429c" name="Leader" entryId="3198-c1ce-dfd0-fb4f" primary="false"/>
+        <category id="7e8c-391e-50d8-1878" name="Operative" entryId="f98b-0289-0f1f-b233" primary="false"/>
+        <category id="7a52-7c5c-6b20-2462" name="Drone" entryId="c5c1-db85-5269-3c3c" primary="false"/>
+        <category id="dcd7-f3b6-da48-05fd" name="Mutoid Vermin" entryId="5378-18da-9409-091a" primary="false"/>
+        <category id="0d6d-7543-1a57-5c75" name="Exaction Squad" entryId="5750-52c0-127a-fa5b" primary="false"/>
+        <category id="034d-4635-0fe3-ef3b" name="Imperial Navy Breachers" entryId="5eb9-3063-33ee-fc3" primary="false"/>
+        <category id="c7cd-9a87-36eb-c590" name="Kasrkin" entryId="21f1-9708-dcc8-d36c" primary="false"/>
+        <category id="d166-26b1-b36b-0d38" name="Sister of Silence" entryId="ddb1-20b1-eebf-aa4a" primary="false"/>
+        <category id="55b9-37d1-02c6-6227" name="Tempestus Scion" entryId="5d21-66e8-b1eb-209f" primary="false"/>
+        <category id="fd68-faa2-b778-d84a" name="Veteran Guardsmen" entryId="dfb3-bfe0-549d-be8" primary="false"/>
+      </categories>
+    </force>
+  </forces>
+</roster>

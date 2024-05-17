@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<roster id="5ec1-8523-9c90-763c" name="Necron Combat Patrol" battleScribeVersion="2.03" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemName="Warhammer 40,000 10th Edition" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/rosterSchema">
+  <costs>
+    <cost name="pts" typeId="51b2-306e-1021-d207" value="325.0"/>
+  </costs>
+  <forces>
+    <force id="83ec-2dda-8643-53b8" name="Army Roster" entryId="bb9d-299a-ed60-2d8a" catalogueId="b654-a18a-ea1-3bf2" catalogueRevision="36" catalogueName="Xenos - Necrons">
+      <selections>
+        <selection id="a285-1959-ce45-aa68" name="Detachment Choice" entryId="b04d-22c1-e41b-3aeb::82f1-b597-7b06-8ba2" number="1" type="upgrade">
+          <selections>
+            <selection id="04ca-07be-c87a-d6b2" name="Annihilation Legion" entryId="b04d-22c1-e41b-3aeb::6493-9079-727d-d95f" entryGroupId="b04d-22c1-e41b-3aeb::aa9c-b6d6-f78-12ac" number="1" type="upgrade">
+              <rules>
+                <rule id="b04d-22c1-e41b-3aeb::6178-3942-2e5a-88c0::ef1-451e-eab8-8ee7" name="Annihilation Protocol" hidden="false">
+                  <description>Each time a DESTROYER CULT or FLAYED ONES unit from your army declares a charge, you can re-roll the Charge roll. If one or more targets of that charge are Below Half-strength, add 1 to the charge roll as well.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="ded6-a9c3-8aa9-a6f5" name="Configuration" entryId="4ac9-fd30-1e3d-b249" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="dfc6-e66d-5890-1db0" name="Show/Hide Options" entryId="f5b-1682-90da-2911::e8ef-836a-a9d1-901d" number="1" type="upgrade">
+          <selections>
+            <selection id="c87a-86bf-7a47-8f2a" name="Legends are visible" entryId="f5b-1682-90da-2911::892f-57ca-d650-7199::9ed-cbf4-bfe5-90bf" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="4df6-bf27-3727-a88e" name="Configuration" entryId="4ac9-fd30-1e3d-b249" primary="true"/>
+              </categories>
+            </selection>
+            <selection id="b17d-f6d1-aab7-663d" name="Unaligned Forces are visible" entryId="f5b-1682-90da-2911::985-e753-2e94-859::2973-ea51-7f8d-5403" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="3b33-420b-d159-64ed" name="Unaligned Fortifications are visible" entryId="f5b-1682-90da-2911::4d37-22c-a45c-64f8::e916-2cf4-a49d-b8c4" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="130a-8743-048a-b281" name="Configuration" entryId="4ac9-fd30-1e3d-b249" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="996c-3788-6dba-4f0e" name="Battle Size" entryId="7380-3e40-6ed6-b7cc::564e-fbc6-5266-3ea4" number="1" type="upgrade">
+          <selections>
+            <selection id="c1f3-525a-05a6-e015" name="1. Incursion (1000 Point limit)" entryId="7380-3e40-6ed6-b7cc::d62d-db22-4893-4bc0" entryGroupId="7380-3e40-6ed6-b7cc::b960-4789-a3a6-59cb" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="c788-cc5e-b338-fe36" name="Configuration" entryId="4ac9-fd30-1e3d-b249" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="c9ab-7ef5-7be2-fd1f" name="Overlord" entryId="4c4e-f077-670e-1de9::dbe5-257e-e2bd-1b40" number="1" type="model">
+          <rules>
+            <rule id="4c4e-f077-670e-1de9::26e8-dad1-ac3f-4b26::b4dd-3e1f-41cb-218f" name="Leader" publicationId="48fc-15aa-b307-9443" page="39" hidden="false">
+              <description>While a Bodyguard unit contains a Leader, it is known as an Attached unit and, with the exception of rules that are triggered when units are destroyed (pg 12), it is treated as a single unit for all rules purposes. Each time an attack targets an Attached unit, until the attacking unit has resolved all of its attacks, you must use the Toughness characteristic of the Bodyguard models in that unit, even if a Leader in that unit has a different Toughness characteristic. Each time an attack sucessfully wounds an Attached unit, that attack cannot be allocated to a Character model in that unit, even if that Character model has lost one or more wounds or has already had attacks allocated to it this phase. As soon as the last Bodyguard model in an Attached unit has been destroyed, any attacks made against that unit that have yet to be allocated can then be allocated to Character models in that unit.</description>
+            </rule>
+            <rule id="4c4e-f077-670e-1de9::e5c5-9468-2f96-e54b::a511-d9ca-17d0-42c5" name="Reanimation Protocols" hidden="false">
+              <description>If your Army Faction is NECRONS, at the end of your Command phase, each unit from your army with this ability that is on the battlefield activates its Reanimation Protocols and reanimates D3 wounds. Each time such a unit reanimates a wound:
+■ If that unit contains one or more models with fewer than their starting number of wounds remaining, select one of those models; that model regains one lost wound.
+■ If all models in that unit have their starting number of wounds, but that unit is not at its Starting Strength, one destroyed model is returned to that unit with one wound remaining.
+Once such a unit is at its Starting Strength and all of its models have their starting number of wounds, nothing further happens.</description>
+            </rule>
+            <rule id="4c4e-f077-670e-1de9::5fde-9e66-380-1aed::ef1-451e-eab8-8ee7" name="Annihilation Protocol" hidden="false">
+              <description>Each time a DESTROYER CULT or FLAYED ONES unit from your army declares a charge, you can re-roll the Charge roll. If one or more targets of that charge are Below Half-strength, add 1 to the charge roll as well.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="4c4e-f077-670e-1de9::a39f-6d97-5dac-8f37" name="Leader" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
+■ IMMORTALS
+■ LYCHGUARD
+■ NECRON WARRIORS</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="4c4e-f077-670e-1de9::255f-c2da-feed-5c8b" name="Overlord" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">5&quot;</characteristic>
+                <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">5</characteristic>
+                <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
+                <characteristic name="W" typeId="750a-a2ec-90d3-21fe">6</characteristic>
+                <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+                <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="4c4e-f077-670e-1de9::254b-9b9e-8897-de08" name="My Will Be Done" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle round, one unit from your army with this ability can be targeted with a Stratagem for 0CP, even if you have already targeted a different unit with that Stratagem this phase.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="4c4e-f077-670e-1de9::7eaa-f4a5-901d-2420" name="Implacable Resilience" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time an attack is allocated to this model, subtract 1 from that attack’s Damage characteristic.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="4c4e-f077-670e-1de9::70b4-8797-3592-64d" name="Invulnerable Save" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 4+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="c5a3-e267-cc8e-c702" name="Overlord&apos;s blade and tachyon arrow" entryId="4c4e-f077-670e-1de9::ea24-9cfe-fe52-6ce9" entryGroupId="4c4e-f077-670e-1de9::44d2-abff-c527-348c" number="1" type="upgrade">
+              <selections>
+                <selection id="0d79-463e-914a-ed71" name="Overlord&apos;s blade" entryId="4c4e-f077-670e-1de9::685e-3963-5d37-f23::10c5-11df-dd25-b5b0" number="1" type="upgrade">
+                  <rules>
+                    <rule id="4c4e-f077-670e-1de9::685e-3963-5d37-f23::4cf3-c076-d29d-1403::be1e-ac8e-1e2c-3528" name="Devastating Wounds" publicationId="48fc-15aa-b307-9443" page="28" hidden="false">
+                      <description>Weapons with [DEVASTATING WOUNDS] in their profile are known as Devastating Wounds weapons. Each time an attack is made with such a weapon, if that attack scores a Critical Wound, no saving throw of any kind can be made against that attack (including invulnerable saving throws). Such attacks are only allocated to models after all other attacks made by the attacking unit have been allocated and resolved</description>
+                    </rule>
+                  </rules>
+                  <profiles>
+                    <profile id="4c4e-f077-670e-1de9::685e-3963-5d37-f23::ee65-1ae9-d6a8-bd85" name="Overlord&apos;s blade" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                      <characteristics>
+                        <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                        <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
+                        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
+                        <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
+                        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
+                        <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Devastating Wounds</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="dd0a-a9e5-b9cf-fa9b" name="Tachyon arrow" entryId="4c4e-f077-670e-1de9::36a8-35be-5379-fa62::6920-cba8-a495-6d1e" number="1" type="upgrade">
+                  <rules>
+                    <rule id="4c4e-f077-670e-1de9::36a8-35be-5379-fa62::bb73-6840-bb76-bb48::cd26-1611-860a-91e4" name="One Shot" hidden="false">
+                      <description>The bearer can only shoot with this weapon once per battle.</description>
+                    </rule>
+                  </rules>
+                  <profiles>
+                    <profile id="4c4e-f077-670e-1de9::36a8-35be-5379-fa62::da09-ceb4-d0ec-e297" name="Tachyon arrow" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">72&quot;</characteristic>
+                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
+                        <characteristic name="S" typeId="2229-f494-25db-c5d3">16</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-5</characteristic>
+                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+2</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">One Shot</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="85.0"/>
+          </costs>
+          <categories>
+            <category id="ff6b-189c-d43a-df63" name="Faction: Necrons" entryId="ee0-cf31-4fb5-6b26" primary="false"/>
+            <category id="283f-6e0a-a83c-072a" name="Infantry" entryId="cf47-a0d7-7207-29dc" primary="false"/>
+            <category id="aa54-ee90-00a7-375f" name="Character" entryId="9cfd-1c32-585f-7d5c" primary="true"/>
+            <category id="db06-6fa4-335a-b1fe" name="Noble" entryId="b473-c92b-6882-86b0" primary="false"/>
+            <category id="8a91-63f4-6a6f-f9be" name="Overlord" entryId="2324-ba16-58e4-df2e" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="8b1a-f408-aa20-96a2" name="Necron Warriors" entryId="5c25-2188-d5fe-ef0d::58e9-5212-f5a6-c12d" number="1" type="unit">
+          <rules>
+            <rule id="5c25-2188-d5fe-ef0d::42aa-f2b7-dca2-cb15::a511-d9ca-17d0-42c5" name="Reanimation Protocols" hidden="false">
+              <description>If your Army Faction is NECRONS, at the end of your Command phase, each unit from your army with this ability that is on the battlefield activates its Reanimation Protocols and reanimates D3 wounds. Each time such a unit reanimates a wound:
+■ If that unit contains one or more models with fewer than their starting number of wounds remaining, select one of those models; that model regains one lost wound.
+■ If all models in that unit have their starting number of wounds, but that unit is not at its Starting Strength, one destroyed model is returned to that unit with one wound remaining.
+Once such a unit is at its Starting Strength and all of its models have their starting number of wounds, nothing further happens.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="5c25-2188-d5fe-ef0d::b82c-b711-6d65-30b5" name="Necron Warriors" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">5&quot;</characteristic>
+                <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
+                <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
+                <characteristic name="W" typeId="750a-a2ec-90d3-21fe">1</characteristic>
+                <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+                <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="5c25-2188-d5fe-ef0d::a7f5-b25d-40f2-e927" name="Their Number is Legion" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this unit’s Reanimation Protocols activate, you can re-roll the dice to see how many wounds are regenerated.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="30c5-f6ad-8e4b-e0c8" name="Warrior w/ gauss flayer" entryId="5c25-2188-d5fe-ef0d::2498-87b1-fec5-2973" entryGroupId="5c25-2188-d5fe-ef0d::ea2d-fc31-6e16-fd70" number="10" type="model">
+              <selections>
+                <selection id="1710-9b7e-1b00-1f51" name="Gauss flayer" entryId="5c25-2188-d5fe-ef0d::abb0-d7fe-2195-4655" number="10" type="upgrade">
+                  <rules>
+                    <rule id="5c25-2188-d5fe-ef0d::6647-1277-1ea2-f79b::d1d1-611e-5191-1095" name="Lethal Hits" publicationId="48fc-15aa-b307-9443" page="25" hidden="false">
+                      <description>Weapons with [LETHAL HITS] in their profile are known as Lethal Hits weapons. Each time an attack is made with such a weapon, a Critical Hit automatically wounds the target.</description>
+                    </rule>
+                    <rule id="5c25-2188-d5fe-ef0d::1ef3-98be-135a-180d::c5c8-8b58-b8b6-7786" name="Rapid Fire" publicationId="48fc-15aa-b307-9443" page="25" hidden="false">
+                      <description>Weapons with [RAPID FIRE X] in their profile are known as Rapid Fire weapons. Each time such a weapon targets a unit within half that weapon’s range, the Attacks characteristic of that weapon is increased by the amount denoted by ‘x’.</description>
+                    </rule>
+                  </rules>
+                  <profiles>
+                    <profile id="5c25-2188-d5fe-ef0d::1b73-4952-9b2a-e193" name="Gauss flayer" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                        <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Lethal Hits, Rapid Fire 1</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="0a5b-1fe4-d2ed-7605" name="Close combat weapon" entryId="5c25-2188-d5fe-ef0d::3918-80f8-a762-a77b::69d2-ffd6-3daf-b437" number="10" type="upgrade">
+                  <profiles>
+                    <profile id="5c25-2188-d5fe-ef0d::3918-80f8-a762-a77b::478d-a558-3dc0-1ff" name="Close combat weapon" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                      <characteristics>
+                        <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                        <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
+                        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                        <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
+                        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                        <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="100.0"/>
+          </costs>
+          <categories>
+            <category id="16e8-d02f-7590-4518" name="Faction: Necrons" entryId="ee0-cf31-4fb5-6b26" primary="false"/>
+            <category id="707e-9330-9af3-cc05" name="Infantry" entryId="cf47-a0d7-7207-29dc" primary="false"/>
+            <category id="7368-d928-acf5-1147" name="Battleline" entryId="e338-111e-d0c6-b687" primary="true"/>
+            <category id="654c-108b-55f2-084d" name="Necron Warriors" entryId="2fd7-338d-d680-5237" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="7673-fa09-d716-7cbd" name="Skorpekh Destroyers" entryId="d353-6bfd-a702-7457::66e-26f2-7c38-e4d8" number="1" type="unit">
+          <rules>
+            <rule id="d353-6bfd-a702-7457::217-34d4-3fe8-c121::a511-d9ca-17d0-42c5" name="Reanimation Protocols" hidden="false">
+              <description>If your Army Faction is NECRONS, at the end of your Command phase, each unit from your army with this ability that is on the battlefield activates its Reanimation Protocols and reanimates D3 wounds. Each time such a unit reanimates a wound:
+■ If that unit contains one or more models with fewer than their starting number of wounds remaining, select one of those models; that model regains one lost wound.
+■ If all models in that unit have their starting number of wounds, but that unit is not at its Starting Strength, one destroyed model is returned to that unit with one wound remaining.
+Once such a unit is at its Starting Strength and all of its models have their starting number of wounds, nothing further happens.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="d353-6bfd-a702-7457::14d-53e1-498-7525" name="Skorpekh Destroyers" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
+                <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
+                <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+                <characteristic name="W" typeId="750a-a2ec-90d3-21fe">3</characteristic>
+                <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+                <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="d353-6bfd-a702-7457::ba2f-e69c-95b4-cc4d" name="Whirling Onslaught" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model in this unit makes a melee attack, re-roll a Hit roll of 1. If this unit made a Charge move this turn, you can re-roll the Hit roll instead.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="82bc-d1ef-1def-e035" name="Skorpekh Destroyer" entryId="d353-6bfd-a702-7457::ef69-b593-4685-18ce" entryGroupId="d353-6bfd-a702-7457::29b-1d43-154e-bc79" number="3" type="model">
+              <selections>
+                <selection id="8769-5c50-2697-628f" name="Skorpekh hyperphase weapons" entryId="d353-6bfd-a702-7457::d53f-d496-111d-b6dd" number="3" type="upgrade">
+                  <profiles>
+                    <profile id="d353-6bfd-a702-7457::5fb9-6d8e-9546-8f9b" name="Skorpekh hyperphase weapons" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                      <characteristics>
+                        <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                        <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
+                        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                        <characteristic name="S" typeId="ab33-d393-96ce-ccba">7</characteristic>
+                        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                        <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="100.0"/>
+          </costs>
+          <categories>
+            <category id="fe33-eb48-4cea-08b6" name="Faction: Necrons" entryId="ee0-cf31-4fb5-6b26" primary="false"/>
+            <category id="25a4-972b-2490-7391" name="Infantry" entryId="cf47-a0d7-7207-29dc" primary="true"/>
+            <category id="6639-7692-96ff-0d31" name="Destroyer Cult" entryId="b43e-b010-7d4a-3302" primary="false"/>
+            <category id="b769-afda-2502-1e3d" name="Skorpekh Destroyers" entryId="97f2-7658-2cd-8f4b" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="593b-4535-ac2a-1967" name="Canoptek Scarab Swarms" entryId="b0ed-64b4-497e-559d::259b-a8e3-928f-1d0c" number="1" type="unit">
+          <rules>
+            <rule id="b0ed-64b4-497e-559d::1255-c410-3c25-5e7c::a511-d9ca-17d0-42c5" name="Reanimation Protocols" hidden="false">
+              <description>If your Army Faction is NECRONS, at the end of your Command phase, each unit from your army with this ability that is on the battlefield activates its Reanimation Protocols and reanimates D3 wounds. Each time such a unit reanimates a wound:
+■ If that unit contains one or more models with fewer than their starting number of wounds remaining, select one of those models; that model regains one lost wound.
+■ If all models in that unit have their starting number of wounds, but that unit is not at its Starting Strength, one destroyed model is returned to that unit with one wound remaining.
+Once such a unit is at its Starting Strength and all of its models have their starting number of wounds, nothing further happens.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="b0ed-64b4-497e-559d::971b-8c49-4470-694a" name="Canoptek Scarab Swarms" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
+                <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">2</characteristic>
+                <characteristic name="SV" typeId="450-a17e-9d5e-29da">6+</characteristic>
+                <characteristic name="W" typeId="750a-a2ec-90d3-21fe">4</characteristic>
+                <characteristic name="LD" typeId="58d2-b879-49c7-43bc">8+</characteristic>
+                <characteristic name="OC" typeId="bef7-942a-1a23-59f8">0</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="b0ed-64b4-497e-559d::cd1b-54d7-820c-cd0b" name="Self-destruction" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the Fight phase, if this unit is within Engagement Range of one or more enemy units, you can select one model in this unit to destroy. If you do, select one enemy unit within Engagement Range of that model and roll one D6, adding 1 to the result if that unit is a VEHICLE. On a 2-5, that unit suffers D3 mortal wounds; on a 6+, that unit suffers 3 mortal wounds.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="b0ed-64b4-497e-559d::91c6-fc89-f3ab-c7e2" name="Chittering Swarm" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While an enemy unit is within Engagement Range of this unit, subtract 1 from the Objective Control  characteristic of models in that enemy unit (to a minimum of 1). While this unit is within 6&quot; of one or more friendly CRYPTEK models, the Objective Control characteristic of models in this unit is 1.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="d204-e8f4-7721-9379" name="Canoptek Scarab Swarm" entryId="b0ed-64b4-497e-559d::207-e45f-bfde-3f41" entryGroupId="b0ed-64b4-497e-559d::5fc8-971-9971-c6d" number="3" type="model">
+              <selections>
+                <selection id="c6d1-df8e-395f-f9ef" name="Feeder mandibles" entryId="b0ed-64b4-497e-559d::bb5a-5eb3-1bd4-e813" number="3" type="upgrade">
+                  <rules>
+                    <rule id="b0ed-64b4-497e-559d::a392-c66d-c4fe-cc33::d1d1-611e-5191-1095" name="Lethal Hits" publicationId="48fc-15aa-b307-9443" page="25" hidden="false">
+                      <description>Weapons with [LETHAL HITS] in their profile are known as Lethal Hits weapons. Each time an attack is made with such a weapon, a Critical Hit automatically wounds the target.</description>
+                    </rule>
+                  </rules>
+                  <profiles>
+                    <profile id="b0ed-64b4-497e-559d::bd8d-363e-2b15-d79d" name="Feeder mandibles" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                      <characteristics>
+                        <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                        <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
+                        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">5+</characteristic>
+                        <characteristic name="S" typeId="ab33-d393-96ce-ccba">2</characteristic>
+                        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                        <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lethal Hits</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="40.0"/>
+          </costs>
+          <categories>
+            <category id="2c67-9b3c-793f-8370" name="Swarm" entryId="b00b-5bae-444f-964e" primary="true"/>
+            <category id="7300-c8e7-36ed-9363" name="Fly" entryId="c619-2086-bbcf-69c9" primary="false"/>
+            <category id="6d42-f224-39ef-1d48" name="Canoptek" entryId="79e3-91-f577-a6a6" primary="false"/>
+            <category id="5fca-b267-b116-6ec2" name="Scarab Swarms" entryId="4be6-3c73-e30b-36a1" primary="false"/>
+            <category id="6c31-cead-5350-024a" name="Faction: Necrons" entryId="ee0-cf31-4fb5-6b26" primary="false"/>
+          </categories>
+        </selection>
+      </selections>
+      <publications>
+        <publication id="48fc-15aa-b307-9443" name="10th Edition Core Rules"/>
+        <publication id="8db3-575d-91b-47f8" name="Github"/>
+      </publications>
+      <categories>
+        <category id="46cd-8a72-ccfe-d7bb" name="Uncategorised" entryId="(No Category)" primary="false"/>
+        <category id="a07c-d95d-a149-741a" name="Configuration" entryId="4ac9-fd30-1e3d-b249" primary="false"/>
+        <category id="b716-1798-f17e-62ec" name="Epic Hero" entryId="4f3a-f0f7-6647-348d" primary="false"/>
+        <category id="fc2c-8f81-d871-0f70" name="Character" entryId="9cfd-1c32-585f-7d5c" primary="false"/>
+        <category id="e2f2-7699-7a19-f087" name="Battleline" entryId="e338-111e-d0c6-b687" primary="false"/>
+        <category id="e258-0672-c8db-4df0" name="Infantry" entryId="cf47-a0d7-7207-29dc" primary="false"/>
+        <category id="056c-87e3-5f6b-c690" name="Swarm" entryId="b00b-5bae-444f-964e" primary="false"/>
+        <category id="a5d5-0d3e-d017-1ef1" name="Mounted" entryId="14a0-40c9-2748-ae6e" primary="false"/>
+        <category id="6046-b624-fd0c-1aff" name="Beast" entryId="4c3e-9310-a516-3590" primary="false"/>
+        <category id="b077-af3b-22a4-6def" name="Monster" entryId="9693-cf84-fe69-37a9" primary="false"/>
+        <category id="511d-27ac-0e9a-2008" name="Vehicle" entryId="dbd4-63-af05-998" primary="false"/>
+        <category id="16f6-c7d1-b9dc-ef15" name="Drone" entryId="2471-e2e0-3f55-d6cb" primary="false"/>
+        <category id="94ad-cea1-e057-ecd9" name="Dedicated Transport" entryId="ba07-411c-2832-1f79" primary="false"/>
+        <category id="2a3d-801e-d77c-025e" name="Fortification" entryId="19d7-9c74-2140-5851" primary="false"/>
+        <category id="ed80-848d-72b4-9816" name="Unit" entryId="1160-70ae-a862-b1a8" primary="false"/>
+        <category id="0600-e905-39be-c5bd" name="Allied Units" entryId="887b-ab87-92a2-20f5" primary="false"/>
+      </categories>
+    </force>
+  </forces>
+</roster>
