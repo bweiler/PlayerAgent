@@ -2,6 +2,17 @@ import numpy as np
 
 #device roll functions
 
+#rolls 2 dice and returns charge distance
+def chargeroll() -> int:
+
+    dice_for_charge_rolls = np.random.randint(low=1, high=7, size=(2))
+    # the array will be having 20 elements. 
+    sumdice = 0
+    for single_roll in dice_for_charge_rolls:
+        sumdice = sumdice + single_roll
+
+    return sum_dice
+    
 #returns hits, plus number of dice for reroll option
 def hitroll(num_dice :int, skill :int, modifier :int) -> list:
 
